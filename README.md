@@ -5,7 +5,12 @@ Department of Chemical Engineering
 The Pennsylvania State University
 
 OPLS based force field parameter files for molecular dynamics simulations of zwitterions and their polymers.
+
 *zwitterFF* coarse grains most alkane hydrogen atom and employes virtual cites and lincs algorithms to represent stiff parts of the molecules.
 
+The files represent some molecules studied in this article:
+doi:10.1021/acscentsci.1c01260
+
+Our publication is under review.
 
 
