@@ -1,8 +1,11 @@
 # zwitterFF
 
 Pramudit Tripathi and Scott T. Milner
+
 Department of Chemical Engineering
+
 The Pennsylvania State University
+
 
 OPLS based force field parameter files for molecular dynamics simulations of zwitterions and their polymers.
 
