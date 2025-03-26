@@ -18,6 +18,13 @@ The files represent some molecules studied in this article:
 
 Our publication is under review.
 
+zwitterFF is self containted: it does not need any additional force field parameters from GROMACS.
+
+The folder `top_ZIL` contains files for small-molecule zwitterions, while `top_pZIL` contains files for poly-zwitterions.
+The file `system.top` can be edited to change the number of zwitterions or salt molecules in the simulation.
+The parameters are optimized to be simulatied with a background dielectric constant of 2.
+`epsilon-r=2` must be included in `.mdp` file for the simulaton.
+
 zwitterFF builds upon the [OPLS-VSIL](https://github.com/orlandoacevedo/IL.git), all atom force field for ionic liquids,
 to arrive at parameters for zwitterions.
 Instead of using charge scaling, we use a background dielectric constant of 2 in our simultions.
