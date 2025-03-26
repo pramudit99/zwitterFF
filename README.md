@@ -18,4 +18,8 @@ The files represent some molecules studied in this article:
 
 Our publication is under review.
 
-
+zwitterFF builds upon the [OPLS-VSIL](https://github.com/orlandoacevedo/IL.git), all atom force field for ionic liquids,
+to arrive at parameters for zwitterions.
+Instead of using charge scaling, we use a background dielectric constant of 2 in our simultions.
+[OPLS-VSIL](https://github.com/orlandoacevedo/IL.git) is the work of
+Dr. [Orlando Acevedo](https://web.as.miami.edu/chemistrylabs/acevedogroup/), University of Miami.
