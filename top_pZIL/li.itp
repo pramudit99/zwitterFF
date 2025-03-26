@@ -1,0 +1,8 @@
+; Li ion
+
+[ moleculetype ]
+LI     1
+
+[ atoms ]
+;nr 	type   		rnr	res		at	cgnr
+   1	lils_001	1	LI		LI	1

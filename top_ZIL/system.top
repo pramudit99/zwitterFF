@@ -1,0 +1,13 @@
+#include "oplsaa_vc.itp"
+#include "overwrite.itp"
+#include "li.itp"
+#include "zil.itp"
+#include "tfsi.itp"
+
+[ system ]
+LiTFSI in ZIL
+
+[ molecules ]
+ZIL		800
+TFS		720
+LI		720

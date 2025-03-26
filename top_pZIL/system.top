@@ -1,0 +1,13 @@
+#include "oplsaa_vc.itp"
+#include "overwrite.itp"
+#include "li.itp"
+#include "tfsi.itp"
+#include "chain.itp"
+
+[ system ]
+pZI equilibration
+
+[ molecules ]
+CH1     20
+TFS		720
+LI		720
